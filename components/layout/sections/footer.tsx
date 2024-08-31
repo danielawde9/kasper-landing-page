@@ -35,7 +35,12 @@ export const FooterSection = () => {
             <div className="font-bold">Call us</div>
           </div>
           <div>
-            <Link href="tel:+96176313515">+961 76 313 515</Link>
+            <Link
+              href="tel:+96176313515"
+              className="text-primary transition-all border-primary hover:border-b-2 ml-1"
+            >
+              +961 76 313 515
+            </Link>
           </div>
         </div>
 
@@ -45,7 +50,10 @@ export const FooterSection = () => {
             <div className="font-bold">Email us</div>
           </div>
           <div>
-            <Link href="mailto:kasperbythesisters@gmail.com">
+            <Link
+              href="mailto:kasperbythesisters@gmail.com"
+              className="text-primary transition-all border-primary hover:border-b-2 ml-1"
+            >
               kasperbythesisters@gmail.com
             </Link>
           </div>
