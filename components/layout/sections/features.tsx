@@ -11,39 +11,39 @@ interface FeaturesProps {
 const featureList: FeaturesProps[] = [
   {
     icon: "TabletSmartphone",
-    title: "Mobile Friendly",
+    title: "Mobile Optimized",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+      "Ensure your digital presence is seamless across all devices, providing a user-friendly experience on mobile and tablet.",
   },
   {
     icon: "BadgeCheck",
-    title: "Social Proof",
+    title: "Credibility Building",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+      "Boost your brand's trustworthiness with social proof elements that resonate with your audience.",
   },
   {
-    icon: "Goal",
+    icon: "Target",
     title: "Targeted Content",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+      "Deliver content that speaks directly to your audience’s needs and drives engagement.",
   },
   {
-    icon: "PictureInPicture",
+    icon: "Image",
     title: "Strong Visuals",
     description:
-      "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+      "Capture attention with compelling visuals that align with your brand and message.",
   },
   {
     icon: "MousePointerClick",
-    title: "Clear CTA",
+    title: "Clear Calls to Action",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+      "Guide your visitors with clear, compelling calls to action that encourage interaction.",
   },
   {
-    icon: "Newspaper",
-    title: "Clear Headline",
+    icon: "Text",
+    title: "Impactful Headlines",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+      "Craft headlines that grab attention and clearly communicate the value of your offerings.",
   },
 ];
 
@@ -59,9 +59,8 @@ export const FeaturesSection = () => {
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-        fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-        facere tenetur.
+        Kasper empowers your business with key features that set you apart in
+        the digital landscape.
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

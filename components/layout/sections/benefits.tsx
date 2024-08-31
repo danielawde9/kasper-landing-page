@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Icon } from "@/components/ui/icon";
-import { icons } from "lucide-react";
+import { icons, TrendingDown } from "lucide-react";
 
 interface BenefitsProps {
   icon: string;
@@ -10,28 +10,28 @@ interface BenefitsProps {
 
 const benefitList: BenefitsProps[] = [
   {
-    icon: "Blocks",
-    title: "Build Brand Trust",
+    icon: "BookOpen", // Example icon, replace with the actual icon name you want to use
+    title: "Comprehensive Training",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Gain the skills you need to excel in digital marketing with our expert-led workshops and one-on-one coaching.",
   },
   {
-    icon: "LineChart",
-    title: "More Leads",
+    icon: "Target", // Example icon, replace with the actual icon name you want to use
+    title: "Tailored Strategies",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
+      "Our customized marketing strategies are designed to align with your unique business goals and community mission.",
   },
   {
-    icon: "Wallet",
-    title: "Higher Conversions",
+    icon: "Settings", // Example icon, replace with the actual icon name you want to use
+    title: "Modern Tools",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+      "Stay ahead with the latest digital tools and platforms, ensuring your business remains competitive online.",
   },
   {
-    icon: "Sparkle",
-    title: "Test Marketing Ideas",
+    icon: "TrendingUp", // Example icon, replace with the actual icon name you want to use
+    title: "Continuous Growth",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Embrace continuous learning and adaptation to keep up with the ever-evolving digital landscape.",
   },
 ];
 
@@ -41,14 +41,12 @@ export const BenefitsSection = () => {
       <div className="grid lg:grid-cols-2 place-items-center lg:gap-24">
         <div>
           <h2 className="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
-
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Your Shortcut to Success
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-            ducimus reprehenderit architecto rerum similique facere odit
-            deleniti necessitatibus quo quae.
+            At Kasper, we empower small businesses to thrive in the digital
+            world. Here’s how we can help you succeed online.
           </p>
         </div>
 

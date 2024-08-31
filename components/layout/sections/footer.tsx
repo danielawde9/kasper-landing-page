@@ -1,119 +1,70 @@
 import { Separator } from "@/components/ui/separator";
-import { ChevronsDownIcon } from "lucide-react";
+import { Building2, ChevronsDownIcon, Mail, Phone } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export const FooterSection = () => {
   return (
-    <footer id="footer" className="container py-24 sm:py-32">
-      <div className="p-10 bg-card border border-secondary rounded-2xl">
-        <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-x-12 gap-y-8">
-          <div className="col-span-full xl:col-span-2">
-            <Link href="#" className="flex font-bold items-center">
-              <ChevronsDownIcon className="w-9 h-9 mr-2 bg-gradient-to-tr from-primary via-primary/70 to-primary rounded-lg border border-secondary" />
+    <footer
+      id="footer"
+      className=" py-5 m-6 w-auto bg-primary/5 border border-secondary rounded-2xl container"
+    >
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-y-8 md:gap-x-16 md:gap-y-12">
+        <div className="flex flex-col">
+          <Link href="#" className="flex font-bold items-center mb-4">
+            <Image
+              src={"/logo.png"}
+              alt="Kasper By the Sisters"
+              width={50}
+              height={50}
+            />
+            <h3 className="text-2xl ml-2">Kasper By The Sisters</h3>
+          </Link>
+          <p className="text-muted-foreground">
+            Kasper empowers small, community-focused businesses with tailored
+            digital marketing training and strategies to thrive online and make
+            an impact. Whether you have questions or need tailored advice,
+            Kasper is here to help. Reach out to us and start your journey to
+            mastering digital marketing.
+          </p>
+        </div>
 
-              <h3 className="text-2xl">Shadcn</h3>
-            </Link>
+        <div className="flex flex-col gap-2">
+          <div className="flex gap-2 mb-4 mt-2">
+            <Phone />
+            <div className="font-bold">Call us</div>
           </div>
-
-          <div className="flex flex-col gap-2">
-            <h3 className="font-bold text-lg">Contact</h3>
-            <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Github
-              </Link>
-            </div>
-
-            <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Twitter
-              </Link>
-            </div>
-
-            <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Instagram
-              </Link>
-            </div>
-          </div>
-
-          <div className="flex flex-col gap-2">
-            <h3 className="font-bold text-lg">Platforms</h3>
-            <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                iOS
-              </Link>
-            </div>
-
-            <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Android
-              </Link>
-            </div>
-
-            <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Web
-              </Link>
-            </div>
-          </div>
-
-          <div className="flex flex-col gap-2">
-            <h3 className="font-bold text-lg">Help</h3>
-            <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Contact Us
-              </Link>
-            </div>
-
-            <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                FAQ
-              </Link>
-            </div>
-
-            <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Feedback
-              </Link>
-            </div>
-          </div>
-
-          <div className="flex flex-col gap-2">
-            <h3 className="font-bold text-lg">Socials</h3>
-            <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Twitch
-              </Link>
-            </div>
-
-            <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Discord
-              </Link>
-            </div>
-
-            <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Dribbble
-              </Link>
-            </div>
+          <div>
+            <Link href="tel:+96176313515">+961 76 313 515</Link>
           </div>
         </div>
 
-        <Separator className="my-6" />
-        <section className="">
-          <h3 className="">
-            &copy; 2024 Designed and developed by
-            <Link
-              target="_blank"
-              href="https://github.com/leoMirandaa"
-              className="text-primary transition-all border-primary hover:border-b-2 ml-1"
-            >
-              Leo Miranda
+        <div className="flex flex-col gap-2">
+          <div className="flex gap-2 mb-4 mt-2">
+            <Mail />
+            <div className="font-bold">Email us</div>
+          </div>
+          <div>
+            <Link href="mailto:kasperbythesisters@gmail.com">
+              kasperbythesisters@gmail.com
             </Link>
-          </h3>
-        </section>
+          </div>
+        </div>
       </div>
+
+      <Separator className="my-6" />
+      <section className="text-center">
+        <h3 className="text-sm">
+          &copy; 2024 Designed and developed by
+          <Link
+            target="_blank"
+            href="https://danielawde9.com"
+            className="text-primary transition-all border-primary hover:border-b-2 ml-1"
+          >
+            Daniel Awde
+          </Link>
+        </h3>
+      </section>
     </footer>
   );
 };
