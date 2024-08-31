@@ -41,7 +41,6 @@ const reviewList: ReviewProps[] = [
       "Thanks to Kasper's training, I've learned how to effectively manage our social media and attract more customers who care about sustainability.",
     rating: 4.8,
   },
-
   {
     image: "https://example.com/adam-johnson.png", // Replace with an actual image URL
     name: "Adam Johnson",

@@ -59,7 +59,7 @@ export const ServicesSection = () => {
         expertise to help you achieve your goals.
       </h3>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-4 w-full lg:w-[60%] mx-auto">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-4 w-full lg:w-[80%] mx-auto">
         {serviceList.map(({ title, description, pro }) => (
           <Card
             key={title}
