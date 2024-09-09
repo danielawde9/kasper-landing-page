@@ -27,9 +27,9 @@ export const HeroSection = () => {
           </div>
 
           <p className="max-w-screen-sm mx-auto text-xl text-muted-foreground">
-            At Kasper, we're here to help small, local businesses grow! We
+            At Kasper, we&apos;re here to help small, local businesses grow! We
             provide personalized digital marketing training and strategies that
-            help you shine online and make an impact in your community. Let's
+            help you shine online and make an impact in your community. Let&apos;s
             thrive together!
           </p>
 
