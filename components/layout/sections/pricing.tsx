@@ -29,12 +29,13 @@ const plans: PlanProps[] = [
     popular: PopularPlan.YES,
     price: 45,
     description:
-      "Kasper provides tailored digital marketing strategies for small businesses to thrive online.",
+      "At Kasper, we provide tailored digital marketing strategies customized to fit your business needs.",
     buttonText: "Get started",
     benefitList: [
-      "Personalized digital marketing strategies",
-      "Access to exclusive webinars and tutorials",
-      "Detailed analytics and reporting tools",
+      "Personalized digital marketing plans",
+      "Flexible add-on services to match your goals",
+      "Detailed analytics and insights",
+      "Access to exclusive webinars, tutorials, and more",
       "Community support and networking opportunities",
     ],
   },
@@ -47,14 +48,14 @@ export const PricingSection = () => {
         Pricing
       </h2>
 
-      <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        Get Unlimited Access with Kasper Premium
+      <h2 className="text-3xl md:text-4xl text-center font-bold mb-14">
+        
       </h2>
 
-      <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground pb-14">
+      {/* <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground pb-14">
         Kasper empowers community-focused businesses with the tools they need to
         succeed online.
-      </h3>
+      </h3> */}
 
       <div
         className={`grid ${
@@ -80,10 +81,10 @@ export const PricingSection = () => {
                   {description}
                 </CardDescription>
 
-                <div>
+                {/* <div>
                   <span className="text-3xl font-bold">${price}</span>
                   <span className="text-muted-foreground"> /month</span>
-                </div>
+                </div> */}
               </CardHeader>
 
               <CardContent className="flex">

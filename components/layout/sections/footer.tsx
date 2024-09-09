@@ -7,7 +7,7 @@ export const FooterSection = () => {
   return (
     <footer
       id="footer"
-      className=" py-5 m-6 w-auto bg-primary/5 border border-secondary rounded-2xl container"
+      className=" py-5 m-6 w-auto bg-primary/5 border border-secondary rounded-2xl container mx-auto"
     >
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-y-8 md:gap-x-16 md:gap-y-12">
         <div className="flex flex-col">
